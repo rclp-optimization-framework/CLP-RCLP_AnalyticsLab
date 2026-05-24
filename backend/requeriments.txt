@@ -1,0 +1,2 @@
+# Backward-compatible alias for legacy scripts.
+-r requirements.txt

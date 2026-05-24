@@ -1,0 +1,1 @@
+relatives_metrics = {1:"promedio", 2:"desviacion", 3:"mediana", 4:"moda"}

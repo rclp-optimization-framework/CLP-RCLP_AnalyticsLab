@@ -1,0 +1,38 @@
+{
+  "nombre": "Baseline urban corridor",
+  "solver": "gecode",
+  "pruebas": {
+    "pruebas": [
+      {
+        "num_buses": 2,
+        "num_stations": 4,
+        "max_stops": 3,
+        "num_stops": [3, 2],
+        "st_bi": [
+          [1, 0, 1, 0],
+          [0, 1, 0, 1]
+        ],
+        "d": [
+          [0, 14, 18, 22],
+          [14, 0, 11, 19]
+        ],
+        "t": [
+          [0, 9, 12, 16],
+          [9, 0, 10, 13]
+        ],
+        "tau_bi": [
+          [6, 18, 30, 42],
+          [8, 20, 32, 44]
+        ],
+        "consumo_max": 100,
+        "consumo_min": 20,
+        "alpha": 1.5,
+        "mu": 8.0,
+        "sm": 3,
+        "psi": 2.5,
+        "beta": 12.0,
+        "m": 1000
+      }
+    ]
+  }
+}

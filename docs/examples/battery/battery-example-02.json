@@ -1,0 +1,30 @@
+{
+  "nombre": "Baseline urban corridor - variant",
+  "solver": "chuffed",
+  "pruebas": {
+    "pruebas": [
+      {
+        "num_buses": 3,
+        "num_stations": 5,
+        "max_stops": 4,
+        "num_stops": [3,3,2],
+        "st_bi": [
+          [1,0,1,0,1],
+          [0,1,0,1,0],
+          [1,0,1,0,1]
+        ],
+        "d": [[0]],
+        "t": [[0]],
+        "tau_bi": [[0]],
+        "consumo_max": 120,
+        "consumo_min": 30,
+        "alpha": 1.6,
+        "mu": 9.0,
+        "sm": 4,
+        "psi": 2.8,
+        "beta": 15.0,
+        "m": 1500
+      }
+    ]
+  }
+}

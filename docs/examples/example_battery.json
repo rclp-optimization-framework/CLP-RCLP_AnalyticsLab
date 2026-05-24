@@ -1,0 +1,20 @@
+[
+  {
+    "num_buses": 3,
+    "num_stations": 5,
+    "max_stops": 10,
+    "num_stops": 12,
+    "st_bi": [1, 2, 3],
+    "d": [10, 20, 30],
+    "t": [5, 7, 9],
+    "tau_bi": 2,
+    "consumo_max": 100,
+    "consumo_min": 10,
+    "alpha": 0.5,
+    "mu": 1.2,
+    "sm": 0.8,
+    "psi": 0.1,
+    "beta": 0.2,
+    "m": 2
+  }
+]
